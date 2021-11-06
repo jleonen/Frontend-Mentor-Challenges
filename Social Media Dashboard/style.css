@@ -25,14 +25,18 @@ body {
   line-height: 0;
 }
 
+.followers {
+  color: hsl(228, 12%, 44%);
+}
+
 .total-followers {
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.514);
+  color: hsl(228, 12%, 44%);
 }
 
 .button span {
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.514);
+  color: hsl(228, 12%, 44%);
 }
 
 /* Dark header */
@@ -41,7 +45,7 @@ body {
 }
 
 .dark-span {
-  color: rgba(255, 255, 255, 0.514);
+  color: hsl(228, 12%, 44%);
 }
 
 /* Dashboard */
@@ -67,6 +71,7 @@ body {
   font-weight: bold;
   font-size: 15px;
   margin-top: 20px;
+  color: hsl(228, 12%, 44%);
 }
 
 .followers {
@@ -110,15 +115,15 @@ body {
 }
 
 .increase {
-  color: green;
+  color: hsl(163, 72%, 41%);
 }
 
 .decrease {
-  color: red;
+  color: hsl(356, 69%, 56%);
 }
 
 .overview h2 {
-  color: rgba(0, 0, 0, 0.63);
+  color: hsl(228, 12%, 44%);
 }
 
 /* Overview */
@@ -152,4 +157,7 @@ body {
 
 .overview-heading {
   justify-self: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  color: hsl(228, 12%, 44%);
 }
