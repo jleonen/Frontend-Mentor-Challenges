@@ -15,15 +15,6 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -33,22 +24,99 @@
       </div>
     </header>
     <section class="dashboard">
-      <div>
-        <span><img src="/images/icon-facebook.svg" alt="" /> @nathanf</span>
+      <div class="dash-item">
+        <span class="social"
+          ><img src="/images/icon-facebook.svg" alt="" /> @nathanf</span
+        >
         <h1>1987</h1>
-        <span>Followers</span>
-        <span>12 Today </span>
+        <span class="followers">Followers</span>
+        <span class="follow-count">12 Today </span>
       </div>
-      <div>
-        <span><img src="/images/icon-twitter.svg" alt="" /> @nathanf</span>
+      <!-- ///////////////////////// -->
+      <div class="dash-item">
+        <span class="social"
+          ><img src="/images/icon-twitter.svg" alt="" /> @nathanf</span
+        >
         <h1>1044</h1>
-        <span>Followers</span>
-        <span>99 Today </span>
+        <span class="followers">Followers</span>
+        <span class="follow-count">99 Today </span>
       </div>
-      @realnathanf 11k Followers 1099 Today Nathan F. 8239 Subscribers 144 Today
-      Overview - Today Page Views 87 3% Likes 52 2% Likes 5462 2257% Profile
-      Views 52k 1375% Retweets 117 303% Likes 507 553% Likes 107 19% Total Views
-      1407 12%
+      <!-- /////////////////////////////////////////// -->
+      <div class="dash-item">
+        <span class="social"
+          ><img src="/images/icon-instagram.svg" alt="" /> @realnathanf</span
+        >
+        <h1>11k</h1>
+        <span class="followers">Followers</span>
+        <span class="follow-count">1099 Today </span>
+      </div>
+      <!-- ////////////////////////////////////// -->
+      <div class="dash-item">
+        <span class="social"
+          ><img src="/images/icon-youtube.svg" alt="" /> Nathan F.</span
+        >
+        <h1>8239</h1>
+        <span class="followers">Subscribers</span>
+        <span class="follow-count">144 Today </span>
+      </div>
+<!-- /////////////////////////OVERVIEW//////////////////////////////////// -->
+      <section class="overview">
+      <h2>Overview - Today</h2>
+      <div class="overview-item">
+        <span class="overview-heading">Page Views</span>
+        <img src="/images/icon-facebook.svg" alt="">
+        <h3 class="count">87</h3>
+        <span class="increase"><img src="/images/icon-up.svg" alt=""> 3%</span>
+      </div>
+      <!-- ////////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Likes</span>
+        <img src="/images/icon-facebook.svg" alt="">
+        <h3 class="count">52</h3>
+        <span class="decrease"><img src="/images/icon-down.svg" alt=""> 2%</span>
+      </div>
+      <!-- ///////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Likes</span>
+        <img src="/images/icon-instagram.svg" alt="">
+        <h3 class="count">5462</h3>
+        <span class="increase"><img src="/images/icon-up.svg" alt="">  2257%</span>
+      </div>
+      <!-- //////////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Profile Views</span>
+        <img src="/images/icon-instagram.svg" alt="">
+        <h3 class="count">52k</h3>
+        <span class="increase"><img src="/images/icon-up.svg" alt="">  1375%</span>
+      </div>
+      <!-- ///////////////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Retweets</span>
+        <img src="/images/icon-twitter.svg" alt="">
+        <h3 class="count">117 </h3>
+        <span class="increase"><img src="/images/icon-up.svg" alt=""> 303%</span>
+      </div>
+      <!-- ///////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Likes</span>
+        <img src="/images/icon-twitter.svg" alt="">
+        <h3 class="count">507 </h3>
+        <span class="increase"><img src="/images/icon-up.svg" alt=""> 553%</span>
+      </div>
+      <!-- ////////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Likes</span>
+        <img src="/images/icon-twitter.svg" alt="">
+        <h3 class="count">107 </h3>
+        <span class="decrease"><img src="/images/icon-down.svg" alt=""> 19%</span>
+      </div>
+      <!-- /////////////////////////////////////// -->
+      <div class="overview-item">
+        <span class="overview-heading">Total Views</span>
+        <img src="/images/icon-twitter.svg" alt="">
+        <h3 class="count">1407 </h3>
+        <span class="decrease"><img src="/images/icon-down.svg" alt="">12%</span>
+      </div>
     </section>
     <div class="attribution">
       Challenge by
