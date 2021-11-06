@@ -4,6 +4,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Light header */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -14,8 +15,9 @@ body {
 
 .heading {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 50px;
+  gap: 915px;
 }
 
 .heading h2 {
@@ -31,4 +33,86 @@ body {
 .button span {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.514);
+}
+
+/* Dark header */
+.dark {
+  color: white;
+}
+
+.dark-span {
+  color: rgba(255, 255, 255, 0.514);
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dash-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.dash-item h1 {
+  margin: 10px 0px 0px 0px;
+  font-size: 50px;
+}
+
+.social {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.followers {
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.item-fb {
+  border-top: 4px solid hsl(208, 92%, 53%);
+  border-radius: 4px;
+}
+
+.item-twitter {
+  border-top: 4px solid hsl(203, 89%, 53%);
+  border-radius: 4px;
+}
+
+.item-instagram {
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  /* border-width: 4px; */
+  border-style: solid;
+  border-image: linear-gradient(
+    to right bottom,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  border-image-slice: 1;
+  border-radius: 4px;
+}
+
+.item-youtube {
+  border-top: 4px solid hsl(348, 97%, 39%);
+  border-radius: 4px;
+}
+
+.increase,
+.decrease {
+  font-weight: bold;
+}
+
+.increase {
+  color: green;
+}
+
+.decrease {
+  color: red;
 }
