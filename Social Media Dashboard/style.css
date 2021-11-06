@@ -1,7 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.heading h2 {
+  margin-top: 10px;
+  line-height: 0;
+}
+
+.total-followers {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+.button span {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.514);
 }
