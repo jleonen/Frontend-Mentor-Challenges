@@ -60,6 +60,7 @@ body {
   margin-bottom: 20px;
   width: 250px;
   text-align: center;
+  background-color: hsl(225, 100%, 98%);
 }
 
 .dash-item h1 {
@@ -122,26 +123,27 @@ body {
   color: hsl(356, 69%, 56%);
 }
 
+/* Overview */
 .overview h2 {
   color: hsl(228, 12%, 44%);
-}
-
-/* Overview */
-
-.overview h2 {
   margin-left: 80px;
 }
 
 .overview-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .overview-item {
   display: grid;
-  grid-template-columns: repeat(2, 100px);
+  grid-template-columns: repeat(2, 120px);
   justify-items: flex-end;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px 20px 0px 20px;
+  width: 250px;
 }
 
 .overview-item .increase,
