@@ -19,16 +19,32 @@ body {
   align-items: center;
 }
 
+header {
+  background-color: hsl(225, 100%, 98%);
+  height: 200px;
+  margin-top: 0px;
+  padding-top: 50px;
+  border-left-width: 50px;
+  width: 100%;
+}
+
 .heading {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 50px;
-  gap: 800px;
+  gap: 370px;
 }
 
 .heading h2 {
   margin-top: 10px;
   line-height: 0;
+  font-size: 35px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .followers {
@@ -57,8 +73,8 @@ body {
 /* Dashboard */
 .dashboard {
   display: flex;
-  /* justify-content: space-evenly; */
   gap: 20px;
+  transform: translateY(-83px);
 }
 
 .dash-item {
@@ -102,7 +118,6 @@ body {
   border-bottom-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  /* border-width: 4px; */
   border-style: solid;
   border-image: linear-gradient(
     to right bottom,
