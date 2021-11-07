@@ -22,7 +22,6 @@ input[type="checkbox"] {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   /* transition: 0.5s; */
 }
-/* ///////////////////////////// */
 
 input:checked[type="checkbox"] {
   background: linear-gradient(45deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
@@ -104,6 +103,7 @@ header {
   color: hsl(228, 12%, 44%);
 }
 
+/* //////////////////////// */
 /* Dark header */
 .dark {
   color: white;
@@ -128,6 +128,12 @@ header {
   width: 300px;
   text-align: center;
   background-color: hsl(225, 100%, 98%);
+  cursor: pointer;
+}
+
+.dash-item:hover,
+.overview-item:hover {
+  background-color: hsla(356, 69%, 56%, 0.459);
 }
 
 .dash-item h1 {
@@ -188,7 +194,7 @@ header {
 .decrease {
   color: hsl(356, 69%, 56%);
 }
-
+/* ////////////////////////////// */
 /* Overview */
 .overview {
   transform: translateY(-50px);
@@ -213,6 +219,7 @@ header {
   background-color: hsl(225, 100%, 98%);
   padding: 20px 20px 0px 20px;
   width: 250px;
+  cursor: pointer;
 }
 
 .overview-item .increase,
