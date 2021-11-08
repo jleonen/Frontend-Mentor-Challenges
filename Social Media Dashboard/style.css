@@ -21,6 +21,7 @@ input[type="checkbox"] {
   border-radius: 20px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   /* transition: 0.5s; */
+  cursor: pointer;
 }
 
 input:checked[type="checkbox"] {
@@ -104,14 +105,6 @@ header {
 }
 
 /* //////////////////////// */
-/* Dark header */
-.dark {
-  color: white;
-}
-
-.dark-span {
-  color: hsl(228, 12%, 44%);
-}
 
 /* Dashboard */
 .dashboard {
@@ -200,7 +193,11 @@ header {
   transform: translateY(-50px);
 }
 
-.overview h2 {
+/* .overview h2 {
+  color: hsl(228, 12%, 44%);
+} */
+
+.overview-title {
   color: hsl(228, 12%, 44%);
 }
 
@@ -238,4 +235,30 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: hsl(228, 12%, 44%);
+}
+
+/* Dark Mode */
+.dark-bg {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.dark-header {
+  background-color: hsl(232, 19%, 15%);
+}
+
+.dark-items {
+  color: white;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.dark-span {
+  color: hsl(228, 12%, 44%);
+}
+
+.dark-dashboard {
+  color: white;
+}
+
+.dark-overview {
+  color: white;
 }
