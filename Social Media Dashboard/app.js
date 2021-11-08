@@ -26,6 +26,7 @@ const toggleBackgroundColor = () => {
 
 //change font color of dashboard and overview titles
 const toggleFontColor = () => {
+  document.querySelector(".btn-label").classList.toggle("dark-dashboard");
   dashboardHeading.classList.toggle("dark-dashboard");
   overviewHeading.classList.toggle("dark-overview");
 };

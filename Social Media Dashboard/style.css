@@ -9,6 +9,7 @@ body {
 .button {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 input[type="checkbox"] {
@@ -47,7 +48,7 @@ input:checked[type="checkbox"]:before {
   background-color: hsl(230, 17%, 14%);
 }
 /* ///////////////////////////// */
-/* Light header */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -99,7 +100,7 @@ header {
   color: hsl(228, 12%, 44%);
 }
 
-.button span {
+.btn-label {
   font-weight: bold;
   color: hsl(228, 12%, 44%);
 }
@@ -193,10 +194,6 @@ header {
   transform: translateY(-50px);
 }
 
-/* .overview h2 {
-  color: hsl(228, 12%, 44%);
-} */
-
 .overview-title {
   color: hsl(228, 12%, 44%);
 }
@@ -237,6 +234,8 @@ header {
   color: hsl(228, 12%, 44%);
 }
 
+/* ////////////////////////// */
+
 /* Dark Mode */
 .dark-bg {
   background-color: hsl(230, 17%, 14%);
@@ -259,10 +258,7 @@ header {
   color: hsl(228, 12%, 44%);
 }
 
-.dark-dashboard {
-  color: white;
-}
-
+.dark-dashboard,
 .dark-overview {
   color: white;
 }
