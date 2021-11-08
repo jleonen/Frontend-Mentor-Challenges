@@ -251,6 +251,10 @@ header {
   background-color: hsl(228, 28%, 20%);
 }
 
+.dark-items:hover {
+  background-color: hsl(229, 27%, 31%);
+}
+
 .dark-span {
   color: hsl(228, 12%, 44%);
 }
