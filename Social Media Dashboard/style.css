@@ -262,3 +262,34 @@ header {
 .dark-overview {
   color: white;
 }
+
+/* //////////////////// */
+/* Media Queries */
+
+@media (max-width: 400px) {
+  .heading {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .button {
+    justify-content: space-between;
+  }
+
+  .dashboard {
+    flex-direction: column;
+    transform: translateY(0px);
+  }
+
+  .overview {
+    transform: translateY(0px);
+  }
+
+  .overview-container {
+    grid-template-columns: 1fr;
+  }
+}
