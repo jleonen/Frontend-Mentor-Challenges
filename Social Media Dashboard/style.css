@@ -294,6 +294,9 @@ header {
 }
 
 @media (max-width: 950px) {
+  header {
+    width: 700px;
+  }
   .heading {
     gap: 30px;
     flex-direction: column;
@@ -362,11 +365,6 @@ header {
 }
 
 @media (max-width: 450px) {
-  /* .heading {
-    gap: 30px;
-    flex-direction: column;
-  } */
-
   header {
     width: 400px;
   }
@@ -403,17 +401,9 @@ header {
   }
 }
 
-@media (max-width: 320px) {
-  .site-container {
-    margin-left: 100px;
-  }
-
-  .heading {
-    width: 300px;
-  }
-
+@media (max-width: 380px) {
   header {
-    margin-right: 104px;
+    width: 300px;
   }
 
   .dashboard {
@@ -439,5 +429,19 @@ header {
 
   .overview-item h3 {
     font-size: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .site-container {
+    margin-left: 50px;
+  }
+
+  .overview-item {
+    width: 300px;
+  }
+
+  .dash-item {
+    width: 350px;
   }
 }
