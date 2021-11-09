@@ -127,7 +127,6 @@ header {
 
 .dash-item:hover,
 .overview-item:hover {
-  /* background-color: hsla(356, 69%, 56%, 0.459); */
   background-color: hsla(205, 16%, 85%, 0.712);
 }
 
