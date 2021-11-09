@@ -367,6 +367,10 @@ header {
     flex-direction: column;
   } */
 
+  header {
+    width: 400px;
+  }
+
   .heading h2 {
     font-size: 27px;
     width: 400px;
@@ -381,12 +385,21 @@ header {
     transform: translateY(0px);
   }
 
+  .dash-item {
+    width: 400px;
+  }
+
   .overview {
     transform: translateY(0px);
   }
 
   .overview-container {
     grid-template-columns: 1fr;
+  }
+
+  .overview-item {
+    width: 350px;
+    column-gap: 100px;
   }
 }
 
