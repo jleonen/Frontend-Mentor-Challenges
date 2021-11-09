@@ -266,6 +266,33 @@ header {
 /* //////////////////// */
 /* Media Queries */
 
+@media (max-width: 1240px) {
+  .dash-item {
+    width: 260px;
+  }
+
+  .overview-item {
+    width: 200px;
+    justify-items: center;
+  }
+
+  .overview-container {
+    column-gap: 0px;
+    grid-template-columns: repeat(4, 280px);
+  }
+}
+
+@media (max-width: 1110px) {
+  .dash-item {
+    width: 220px;
+  }
+
+  .overview-container {
+    grid-template-columns: repeat(4, 245px);
+    row-gap: 5px;
+  }
+}
+
 @media (max-width: 400px) {
   .heading {
     gap: 30px;
