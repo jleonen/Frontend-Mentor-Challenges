@@ -46,7 +46,7 @@ I learned more about how to toggle between classes using Javascript. So it allow
 
 ### Continued development
 
-I will need to study more about what webkit properties do, as that was one of the properties used to make the button in this project. I would also like to have more opportunities to work with checkboxes and how to apply styles to them as well.
+I will need to study more about what webkit properties do, as that was one of the properties used to make the button in this project. I would also like to have more opportunities to work with checkboxes and how to apply styles to them as well. I also believe that the class names could have been named better as well. I also think I need to work on how to work around specificities in CSS, as this was a challenge while I was building this project. I had tried applying a style to a certain element in a media query but it wasn't able to be applied since another
 
 ### Useful resources
 
