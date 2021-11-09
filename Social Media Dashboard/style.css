@@ -127,7 +127,8 @@ header {
 
 .dash-item:hover,
 .overview-item:hover {
-  background-color: hsla(356, 69%, 56%, 0.459);
+  /* background-color: hsla(356, 69%, 56%, 0.459); */
+  background-color: hsla(205, 16%, 85%, 0.712);
 }
 
 .dash-item h1 {
@@ -313,6 +314,7 @@ header {
 
   .button {
     justify-content: space-between;
+    border-top: 0.1px solid hsl(228, 12%, 44%);
   }
 
   .dashboard {
@@ -370,25 +372,11 @@ header {
   }
 
   .heading h2 {
-    font-size: 27px;
-    width: 400px;
-  }
-
-  .button {
-    justify-content: space-between;
-  }
-
-  .dashboard {
-    flex-direction: column;
-    transform: translateY(0px);
+    font-size: 25px;
   }
 
   .dash-item {
     width: 400px;
-  }
-
-  .overview {
-    transform: translateY(0px);
   }
 
   .overview-container {

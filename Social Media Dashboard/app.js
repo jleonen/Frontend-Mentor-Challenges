@@ -7,6 +7,7 @@ const siteBG = document.querySelector("body");
 const dashboardHeading = document.querySelector(".heading h2");
 const overviewHeading = document.querySelector(".overview-title");
 const header = document.querySelector("header");
+const modeLabel = document.querySelector(".btn-label");
 
 //change background color of specific elements
 const toggleBackgroundColor = () => {
@@ -32,6 +33,9 @@ const toggleFontColor = () => {
 };
 
 toggleMode.addEventListener("click", function () {
+  modeLabel.innerHTML === "Dark Mode"
+    ? (modeLabel.innerHTML = "Light Mode")
+    : (modeLabel.innerHTML = "Dark Mode");
   toggleBackgroundColor();
   toggleFontColor();
 });
