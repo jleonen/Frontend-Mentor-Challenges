@@ -273,7 +273,8 @@ header {
   }
 
   .heading h2 {
-    font-size: 30px;
+    font-size: 27px;
+    width: 400px;
   }
 
   .button {
@@ -291,5 +292,44 @@ header {
 
   .overview-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .site-container {
+    margin-left: 100px;
+  }
+
+  .heading {
+    width: 300px;
+  }
+
+  header {
+    margin-right: 104px;
+  }
+
+  .dashboard {
+    margin-left: 50px;
+  }
+
+  .dash-item {
+    width: 400px;
+  }
+
+  .overview {
+    margin-left: 50px;
+  }
+
+  .overview-item {
+    width: 350px;
+    column-gap: 100px;
+  }
+
+  .overview-heading {
+    font-size: 18px;
+  }
+
+  .overview-item h3 {
+    font-size: 35px;
   }
 }
