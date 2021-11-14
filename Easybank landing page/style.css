@@ -1,7 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 25px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  color: hsl(233, 8%, 62%);
+  cursor: pointer;
+  height: 45px;
+}
+
+.nav-items span:hover {
+  color: black;
+  border-bottom: 5px solid;
+  border-bottom-color: hsl(136, 65%, 51%);
 }
