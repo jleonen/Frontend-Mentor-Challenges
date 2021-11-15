@@ -3,6 +3,7 @@
 body {
   font-family: "Public Sans", sans-serif;
   margin: 0;
+  font-size: 18px;
 }
 .attribution {
   font-size: 11px;
@@ -79,16 +80,27 @@ nav {
 } */
 
 /* FEATURES */
+
+.statement {
+  transform: translateX(270px);
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+
 .statement h1 {
   font-weight: 400;
+  font-size: 45px;
 }
 
 .statement p {
   color: hsl(233, 8%, 62%);
+  width: 600px;
 }
 
 .feature-cards {
   display: flex;
+  justify-content: center;
+  gap: 86px;
 }
 
 .feature h2 {
@@ -100,23 +112,37 @@ nav {
   color: hsl(233, 8%, 62%);
 }
 
+.feature p {
+  width: 280px;
+}
+
 /* ARTICLES */
 
 .article-section {
   display: flex;
-  gap: 170px;
+  gap: 100px;
+  justify-content: center;
 }
 .article-card {
   display: flex;
   flex-direction: column;
+  gap: 40px;
   align-items: center;
   width: 260px;
 }
 
 .article-card img {
-  width: 400px;
+  width: 300px;
 }
 
 .article-card img:first-child {
   height: 266px;
+}
+
+.article-container h1 {
+  transform: translateX(250px);
+}
+
+.article-info span {
+  font-size: 15px;
 }
