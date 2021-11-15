@@ -209,3 +209,7 @@ nav {
   gap: 20px;
   align-items: baseline;
 }
+
+.footer-btn span {
+  color: hsl(240, 7%, 73%);
+}
