@@ -4,6 +4,7 @@ body {
   font-family: "Public Sans", sans-serif;
   margin: 0;
   font-size: 18px;
+  overflow-x: hidden;
 }
 .attribution {
   font-size: 11px;
@@ -62,6 +63,10 @@ nav {
   width: 1540px;
 }
 
+.intro-container {
+  overflow: hidden;
+}
+
 .intro-info {
   display: flex;
   flex-direction: column;
@@ -72,12 +77,12 @@ nav {
   position: absolute;
   z-index: -1;
   top: -150px;
-  /* left: 890px; */
+  left: 890px;
 }
 
-/* .bg-2 {
+.bg-2 {
   transform: translate(430px, -110px);
-} */
+}
 
 /* FEATURES */
 
