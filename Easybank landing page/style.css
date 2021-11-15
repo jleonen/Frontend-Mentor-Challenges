@@ -67,9 +67,29 @@ nav {
   position: absolute;
   z-index: -1;
   top: -150px;
-  left: 890px;
+  /* left: 890px; */
 }
 
 /* .bg-2 {
   transform: translate(430px, -110px);
 } */
+
+/* FEATURES */
+.statement h1 {
+  font-weight: 400;
+}
+
+.statement p {
+  color: hsl(233, 8%, 62%);
+}
+
+.feature-cards {
+  display: flex;
+}
+
+.feature h2 {
+  font-weight: 400;
+}
+.feature p {
+  color: hsl(233, 8%, 62%);
+}
