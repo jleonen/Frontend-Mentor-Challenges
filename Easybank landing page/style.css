@@ -146,3 +146,41 @@ nav {
 .article-info span {
   font-size: 15px;
 }
+
+/* Footer Section */
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(233, 26%, 24%);
+  padding: 50px 50px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: baseline;
+}
