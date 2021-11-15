@@ -29,7 +29,7 @@ nav {
 
 .nav-items {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   color: hsl(233, 8%, 62%);
   cursor: pointer;
   height: 45px;
@@ -61,10 +61,14 @@ nav {
 .intro {
   display: flex;
   width: 1540px;
+  align-items: center;
+  margin-bottom: 0%;
 }
 
 .intro-container {
   overflow: hidden;
+  height: 832px;
+  margin-left: 280px;
 }
 
 .intro-info {
@@ -73,15 +77,28 @@ nav {
   align-items: flex-start;
 }
 
+.intro-info h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  padding: 0%;
+}
+
+.intro-info p {
+  color: hsl(233, 8%, 62%);
+  width: 39rem;
+  font-size: 1.3rem;
+}
+
 .bg-1 {
   position: absolute;
   z-index: -1;
-  top: -150px;
+  top: -160px;
   left: 890px;
 }
 
 .bg-2 {
-  transform: translate(430px, -110px);
+  transform: translate(160px, -110px);
+  /* height: 980px; */
 }
 
 /* FEATURES */
@@ -173,7 +190,8 @@ nav {
 }
 
 .logo {
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
+  filter: brightness(40%) sepia(100%) hue-rotate(120deg) saturate(1000%);
 }
 
 .icons {
