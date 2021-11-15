@@ -12,6 +12,10 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+section {
+  margin-bottom: 70px;
+}
+
 /* Navigation */
 nav {
   display: flex;
@@ -90,6 +94,29 @@ nav {
 .feature h2 {
   font-weight: 400;
 }
-.feature p {
+.feature p,
+.author,
+.article-card p {
   color: hsl(233, 8%, 62%);
+}
+
+/* ARTICLES */
+
+.article-section {
+  display: flex;
+  gap: 170px;
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
+
+.article-card img {
+  width: 400px;
+}
+
+.article-card img:first-child {
+  height: 266px;
 }
