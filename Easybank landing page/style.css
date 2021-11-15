@@ -30,3 +30,19 @@ nav {
   border-bottom: 5px solid;
   border-bottom-color: hsl(136, 65%, 51%);
 }
+
+.invite-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(136, 65%, 51%);
+  cursor: pointer;
+  height: 2.5rem;
+  padding: 10px 35px 14px 35px;
+  color: white;
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  font-weight: 700;
+}
+
+.invite-btn:hover {
+  background-image: linear-gradient(to right, #73e993, #3fd7fd);
+}
