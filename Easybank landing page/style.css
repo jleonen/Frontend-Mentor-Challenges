@@ -68,7 +68,7 @@ nav {
 .intro-container {
   overflow: hidden;
   height: 832px;
-  margin-left: 280px;
+  margin-left: 210px;
 }
 
 .intro-info {
@@ -103,8 +103,12 @@ nav {
 
 /* FEATURES */
 
+.features {
+  margin-right: 6rem;
+}
+
 .statement {
-  transform: translateX(270px);
+  transform: translateX(220px);
   line-height: 1.5;
   margin-bottom: 5rem;
 }
@@ -144,7 +148,9 @@ nav {
   display: flex;
   gap: 100px;
   justify-content: center;
+  margin-right: 6rem;
 }
+
 .article-card {
   display: flex;
   flex-direction: column;
@@ -162,7 +168,7 @@ nav {
 }
 
 .article-container h1 {
-  transform: translateX(250px);
+  transform: translateX(210px);
 }
 
 .article-info h3 {
@@ -219,6 +225,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   row-gap: 20px;
   column-gap: 100px;
+  transform: translateX(-200px);
 }
 
 .nav-links span:hover {
