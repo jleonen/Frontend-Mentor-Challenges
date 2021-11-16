@@ -75,6 +75,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 19rem;
 }
 
 .intro-info h1 {
@@ -93,11 +94,11 @@ nav {
   position: absolute;
   z-index: -1;
   top: -160px;
-  left: 890px;
+  left: 950px;
 }
 
 .bg-2 {
-  transform: translate(160px, -110px);
+  transform: translate(250px, -110px);
   /* height: 980px; */
 }
 
