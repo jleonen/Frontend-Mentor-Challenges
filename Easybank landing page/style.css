@@ -379,6 +379,18 @@ nav {
   body {
     font-size: 2.5rem;
   }
+
+  nav {
+    width: 800px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
   .intro {
     flex-direction: column-reverse;
   }
@@ -393,17 +405,48 @@ nav {
     align-items: center;
   }
 
+  .intro-info {
+    transform: translateX(-260px);
+    width: 500px;
+    align-items: center;
+  }
+
   .intro-info h1 {
     font-size: 4rem;
+  }
+
+  .intro-info p {
+    font-size: 2.5rem;
+  }
+  .intro-bg {
+    margin-bottom: 700px;
   }
   .bg-1 {
     display: none;
   }
   .bg-2 {
-    transform: translate(-45px, -100px);
+    transform: translate(-700px, -245px);
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bg-3 {
+    position: absolute;
+    z-index: -2;
+    right: -145px;
+    width: 1000px;
+    height: 700px;
+    left: 0px;
+  }
+
+  .invite-btn {
+    font-size: 2rem;
+    height: 60px;
+    width: 280px;
+    border-radius: 50px;
   }
   .features {
-    margin-top: 500px;
+    margin-top: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
