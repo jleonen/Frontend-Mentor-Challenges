@@ -447,6 +447,22 @@ nav {
   }
   .article-container h1 {
     margin-left: 700px;
+    font-weight: 500;
+    width: 830px;
+    font-size: 4.5rem;
+  }
+
+  .article-info h3 {
+    width: 700px;
+  }
+
+  .article-info span {
+    font-size: 1.5rem;
+  }
+
+  .article-card img:first-child {
+    width: 700px;
+    height: 500px;
   }
   .article-section {
     flex-direction: column;
