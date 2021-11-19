@@ -244,3 +244,45 @@ nav {
 .footer-btn span {
   color: hsl(240, 7%, 73%);
 }
+
+/* Media Queries */
+
+@media (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    width: 1450px;
+  }
+
+  .intro-container {
+    margin-left: 0px;
+  }
+
+  .bg-1 {
+    width: 800px;
+    height: 785px;
+    top: 0px;
+    left: 650px;
+  }
+
+  .features {
+    margin-right: 0px;
+  }
+
+  .statement {
+    transform: initial;
+  }
+
+  .article-section {
+    margin-right: 0px;
+  }
+
+  .article-container h1 {
+    transform: initial;
+  }
+
+  .nav-links {
+    transform: initial;
+  }
+}
