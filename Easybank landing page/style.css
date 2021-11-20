@@ -451,11 +451,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 700px;
   }
 
-  .features,
   .article-section {
-    margin-left: 400px;
+    margin-left: 1000px;
   }
 
   .feature {
@@ -490,7 +490,7 @@ nav {
     align-items: center;
   }
   .article-container h1 {
-    margin-left: 700px;
+    margin-left: 1300px;
     font-weight: 500;
     width: 830px;
     font-size: 4.5rem;
@@ -515,6 +515,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin: auto;
   }
   .nav-links {
     display: flex;
