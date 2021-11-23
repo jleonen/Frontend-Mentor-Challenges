@@ -93,7 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Udemy](https://www.udemy.com) - Used code from udemy lesson to make nav.
 - [Codepen](https://codepen.io/stilllife00/pen/avXpgJ?css-preprocessor=postcss) - This is the codepen that I went to in order to get the filter for the icons.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
