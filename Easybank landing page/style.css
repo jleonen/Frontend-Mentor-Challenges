@@ -57,6 +57,14 @@ nav {
   background-image: linear-gradient(to right, #73e993, #3fd7fd);
 }
 
+/* Nav button for smaller screen sizes */
+
+.icon-mobile-nav[name="close-outline"],
+.icon-mobile-nav[name="menu-outline"],
+.btn-mobile-nav {
+  display: none;
+}
+
 /* Intro */
 .intro {
   display: flex;
@@ -197,8 +205,8 @@ nav {
 }
 
 .logo {
-  /* filter: brightness(0) invert(1); */
-  filter: brightness(40%) sepia(100%) hue-rotate(120deg) saturate(1000%);
+  filter: brightness(0) invert(1);
+  /* filter: brightness(40%) sepia(100%) hue-rotate(120deg) saturate(1000%); */
 }
 
 .icons {
