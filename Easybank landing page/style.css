@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
   text-align: center;
 }
 .attribution a {
@@ -593,6 +593,7 @@ nav {
     align-items: center;
     gap: 100px;
     margin: auto;
+    width: 1700px;
   }
   .nav-links {
     display: flex;
@@ -613,5 +614,10 @@ nav {
 
   .footer-section .footer-btn {
     align-items: center;
+  }
+  .attribution {
+    font-size: 1.5rem;
+    margin-left: 90rem;
+    width: 32rem;
   }
 }
