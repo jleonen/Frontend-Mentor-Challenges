@@ -38,6 +38,10 @@ I mainly took on this small project to get used to working with rem units since 
 
 I would like to work with using rem units more when adding sizes for elements.
 
+### Helpful resources
+
+[dcode] https://www.youtube.com/watch?v=exb2ab72Xhs This youtube video helped me learn about how to make the hover effect for this project.
+
 ## Author
 
 - Frontend Mentor - [@jleonen](https://www.frontendmentor.io/profile/jleonen)
