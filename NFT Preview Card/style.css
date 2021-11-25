@@ -1,6 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -27,6 +28,7 @@ body {
   /* background-color: hsl(217, 54%, 11%); */
   display: flex;
   justify-content: center;
+  margin-top: 6.3rem;
 }
 
 .inner-container {
@@ -89,4 +91,22 @@ body {
 
 .credits .name {
   color: white;
+}
+
+@media (max-width: 25rem) {
+  .inner-container,
+  .main-img {
+    width: 16rem;
+  }
+  .inner-container p {
+    letter-spacing: normal;
+  }
+}
+
+@media (max-width: 21rem) {
+  .inner-container,
+  .main-img,
+  .inner-container p {
+    width: 12.5rem;
+  }
 }
