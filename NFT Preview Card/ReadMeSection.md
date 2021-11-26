@@ -40,7 +40,7 @@ I would like to work with using rem units more when adding sizes for elements.
 
 ### Helpful resources
 
-[dcode] https://www.youtube.com/watch?v=exb2ab72Xhs This youtube video helped me learn about how to make the hover effect for this project.
+[dcode] (https://www.youtube.com/watch?v=exb2ab72Xhs) This youtube video helped me learn about how to make the hover effect for this project.
 
 ## Author
 

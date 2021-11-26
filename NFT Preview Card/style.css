@@ -129,6 +129,10 @@ body {
   .inner-container p {
     letter-spacing: normal;
   }
+  .image__overlay {
+    height: 45%;
+    width: 80%;
+  }
 }
 
 @media (max-width: 21rem) {
@@ -136,5 +140,9 @@ body {
   .main-img,
   .inner-container p {
     width: 12.5rem;
+  }
+  .image__overlay {
+    height: 36%;
+    width: 77%;
   }
 }
