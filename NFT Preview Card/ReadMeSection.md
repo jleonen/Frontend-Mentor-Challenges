@@ -36,7 +36,7 @@ I mainly took on this small project to get used to working with rem units since 
 
 ### Continued development
 
-I would like to work with using rem units more when adding sizes for elements.
+I would like to work with using rem units more when adding sizes for elements. One challenge from this project was making an image hover effect, where the icon image appears upon hovering over the card image. This is a CSS technique I have not learned yet up until now and I plan on trying to utilize this in future projects.
 
 ### Helpful resources
 
