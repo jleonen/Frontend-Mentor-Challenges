@@ -9,6 +9,7 @@
 }
 
 body {
+  margin: 0;
   background-image: url("/images/bg-desktop.svg");
   background-color: hsl(257, 40%, 49%);
   color: white;
@@ -18,6 +19,12 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
+  width: 25rem;
+  margin-bottom: 0;
+}
+
+header {
+  align-self: flex-start;
 }
 
 .site-container {
@@ -30,9 +37,32 @@ h1 {
 .intro-section {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 5rem;
+}
+
+.huddle-intro {
+  margin-bottom: 10rem;
 }
 
 .huddle-intro p {
   width: 450px;
+}
+
+.register-btn {
+  border: none;
+  width: 9.3rem;
+  border-radius: 20px;
+  height: 2.5rem;
+  color: hsl(257, 40%, 49%);
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 31%);
+}
+
+.register-btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.socials {
+  align-self: flex-end;
 }
