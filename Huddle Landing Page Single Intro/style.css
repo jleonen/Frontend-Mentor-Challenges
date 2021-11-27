@@ -129,7 +129,6 @@ header {
   }
   .huddle-intro p {
     width: 300px;
-    /* font-size: 1.3rem; */
   }
   .register-btn {
     width: 13.3rem;
@@ -142,5 +141,17 @@ header {
 @media (max-width: 500px) {
   .huddle-img img {
     width: 400px;
+  }
+  .intro-section p {
+    width: 400px;
+  }
+  .fab {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-container {
+    margin-left: 50px;
   }
 }
