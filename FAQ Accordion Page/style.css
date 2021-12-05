@@ -29,4 +29,23 @@ h1 {
 
 .faq-section {
   background-color: white;
+  display: flex;
+  padding: 4rem 2rem;
+  border-radius: 25px;
+  justify-content: space-around;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  /* gap: 4rem; */
+  justify-content: space-between;
+}
+
+.faq div {
+  width: 500px;
 }
