@@ -40,6 +40,7 @@ h1 {
   padding: 4rem 0;
   border-radius: 25px;
   /* justify-content: space-around; */
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.705);
 }
 
 h2 {
@@ -78,4 +79,15 @@ p {
 .img-2 {
   width: 600px;
   transform: translateX(-130px);
+}
+
+.answer-1,
+.answer-2,
+.answer-3,
+.answer-4,
+.answer-5 {
+  display: none;
+}
+.show {
+  display: inline-block;
 }
