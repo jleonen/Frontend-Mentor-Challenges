@@ -81,6 +81,21 @@ p {
   transform: translateX(-130px);
 }
 
+.question-1,
+.question-2,
+.question-3,
+.question-4,
+.question-5 {
+  cursor: pointer;
+}
+
+.question-1:hover,
+.question-2:hover,
+.question-3:hover,
+.question-4:hover,
+.question-5:hover {
+  color: orange;
+}
 .answer-1,
 .answer-2,
 .answer-3,
