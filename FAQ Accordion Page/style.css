@@ -171,3 +171,30 @@ p {
     width: 300px;
   }
 }
+
+@media (max-width: 430px) {
+  body {
+    height: 300vh;
+  }
+  .site-container {
+    margin-top: 500px;
+  }
+  .img-1 {
+    transform: translateX(-81px) translateY(522px);
+  }
+  .faq {
+    font-size: 1rem;
+  }
+
+  .answer-1,
+  .answer-2,
+  .answer-3,
+  .answer-4,
+  .answer-5 {
+    width: initial;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
