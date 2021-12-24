@@ -111,3 +111,11 @@ button {
   margin-bottom: 1rem;
   color: hsl(224, 23%, 55%);
 }
+
+.payment-btn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
