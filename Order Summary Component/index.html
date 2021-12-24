@@ -11,19 +11,10 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Order summary card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="site-container">
@@ -31,22 +22,24 @@
         <div class="card-img">
           <img src="images/illustration-hero.svg" alt="" />
         </div>
-        <h2 class="card-heading">Order Summary</h2>
-        <p class="summary-info">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-        <div class="plan">
-          <div class="plan-info">
-            <img src="images/icon-music.svg" alt="" />
-            <span>Annual Plan</span>
-            <span class="plan-cost"> $59.99/year</span>
+        <div class="card-info">
+          <h2 class="card-heading">Order Summary</h2>
+          <p class="summary-info">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="plan">
+            <div class="plan-info">
+              <img src="images/icon-music.svg" alt="" />
+              <span>Annual Plan</span>
+              <span class="plan-cost"> $59.99/year</span>
+            </div>
+            <a href="#">Change</a>
           </div>
-          <a href="#">Change</a>
-        </div>
-        <div class="payment-section">
-          <button class="payment-btn">Proceed to Payment</button>
-          <button class="cancel-btn">Cancel Order</button>
+          <div class="payment-section">
+            <button class="payment-btn">Proceed to Payment</button>
+            <button class="cancel-btn">Cancel Order</button>
+          </div>
         </div>
       </div>
     </div>
