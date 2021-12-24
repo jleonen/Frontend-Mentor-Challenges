@@ -61,3 +61,26 @@ body {
 .card-heading {
   padding: 2rem 0 1rem 0;
 }
+
+.plan {
+  display: flex;
+  gap: 6rem;
+}
+
+.plan-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-name {
+  font-weight: 900;
+}
+
+.plan-cost {
+  color: hsl(224, 23%, 55%);
+}
