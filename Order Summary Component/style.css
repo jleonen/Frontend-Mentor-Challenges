@@ -35,6 +35,7 @@ body {
 
 .card-img img {
   border-radius: 10px 10px 0 0;
+  transform: translateY(10px);
 }
 
 .card-info {
@@ -44,4 +45,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
+}
+
+.summary {
+  text-align: center;
+}
+
+.summary-info {
+  text-align: center;
+  width: 19rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.card-heading {
+  padding: 2rem 0 1rem 0;
 }
