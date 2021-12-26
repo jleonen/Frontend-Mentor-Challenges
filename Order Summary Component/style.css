@@ -25,12 +25,15 @@ body {
   background-size: 100%;
 }
 
+.site-container {
+  margin-top: 10rem;
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
 }
 
 .card-img img {
@@ -120,4 +123,22 @@ button {
 
 .cancel-btn:hover {
   color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 480px) {
+  .card-info {
+    width: 20rem;
+    padding: 10rem;
+  }
+  .card-img img {
+    width: 22rem;
+  }
+
+  body {
+    background-size: 500%;
+  }
+
+  .payment-btn {
+    width: 15rem;
+  }
 }
